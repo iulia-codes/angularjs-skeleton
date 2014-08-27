@@ -5,7 +5,9 @@ AngularJS skeleton app running on a http-server from NodeJS. Great tools are inc
 
 To run the application simply type in a command line 'npm start' - this will trigger http-server to run on a free port on your PC (starting with 8080 if free). A simple link menu is created, with two pages: homepage and about us.
 
-Good luck! For questions or collaborations, do not hesitate to contact me at iulitaro@gmail.com
+Good luck! For questions or collaborations, do not hesitate to contact me at iulitaro@gmail.com.
+
+
 1. Install nodejs
 
 Node.js is a cross-platform runtime environment for server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows and Linux with no changes.
