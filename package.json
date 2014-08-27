@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-skeleton",
+  "version": "0.0.0",
+  "description": "Backbone project for any AngularJS application",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server app",
+    "less": "lessc app/css/style.css > app/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iulitaro/angularjs-skeleton.git"
+  },
+  "keywords": [
+    "angularjs",
+    "skeleton",
+    "base",    
+    "app"
+  ],
+  "author": "Iulia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iulitaro/angularjs-skeleton/issues"
+  },
+  "homepage": "https://github.com/iulitaro/angularjs-skeleton"
+}

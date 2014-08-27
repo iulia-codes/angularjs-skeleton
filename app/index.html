@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" ng-app="baseapp">
+  <head>
+    <!-- keep the below line if the site is responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <title>Skeleton AngularJS app</title>  
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css"/>  
+    <link rel="stylesheet" href="components/bootstrap-additions/dist/bootstrap-additions.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="uppercase col-xs-12">First AngularJS App</div>      
+      </div>    
+    </header>
+    <nav>
+      <ul>
+      <li><a href="#/about">About</a></li>
+      <li><a href="#/">Homepage</a></li>
+      </ul>
+    </nav>
+    
+    <div class="row">
+      <div class="col-xs-12 text-center"> <h1> Hello World! </h1> </div>      
+    </div>
+    <!-- content goes here -->  
+    <div data-ng-view></div>
+
+    <script src="components/angular/angular.js"></script>      
+    <script src="components/angular-route/angular-route.js"></script>
+    <script src="components/angular-resource/angular-resource.js"></script>
+    <script src="components/angular-cookies/angular-cookies.js"></script>
+
+    <script src="app.js"></script>
+
+    <script src="js/controllers/aboutCtrl.js"></script>   
+    <script src="js/controllers/homepageCtrl.js"></script>
+
+  </body>
+</html>

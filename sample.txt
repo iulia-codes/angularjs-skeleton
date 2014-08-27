@@ -1,0 +1,3 @@
+AngularJS login with Linkedin
+
+http://codepioneer.wordpress.com/2013/09/28/angularjs-log-in-with-linkedin/
